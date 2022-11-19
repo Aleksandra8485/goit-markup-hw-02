@@ -9,6 +9,12 @@ body {
     line-height: 1, 19;
     letter-spacing: 3%;
     text-align: left;
+    text-decoration: none;
+}
+
+.main-information {
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .black {
@@ -19,6 +25,10 @@ body {
     color: #2196f3;
 }
 
-.grey {
+.dark-grey {
     color: #212121;
+}
+
+.grey {
+    color: #757575;
 }
