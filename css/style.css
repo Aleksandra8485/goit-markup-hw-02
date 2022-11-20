@@ -3,6 +3,7 @@
     --black-color: #000;
     --dark-grey: #212121;
     --white-color: #fff;
+    --light-grey: #757575;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 }
 
 .main-information {
+    color: #000;
 }
 
 .logo {
