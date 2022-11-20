@@ -1,5 +1,15 @@
+:root {
+    --primary-color: #2196f3;
+    --black-color: #000;
+    --dark-grey: #212121;
+    --white-color: #fff;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.main-information {
 }
 
 .logo {
@@ -12,29 +22,18 @@ body {
     text-decoration: none;
 }
 
-.main-information {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 1.14;
-    letter-spacing: 2%;
-    text-decoration: none;
-}
-.active {
-    color: #2196f3;
+.black-studio {
+    color: var(--black-color);
 }
 
-.black {
-    color: #000000;
+.white-studio {
+    color: var(--white-color);
 }
 
-.blue {
-    color: #2196f3;
+.nav-list {
+    list-style: none;
 }
 
-.dark-grey {
-    color: #212121;
-}
-
-.grey {
-    color: #757575;
+.nav-list a {
+    color: pink;
 }
