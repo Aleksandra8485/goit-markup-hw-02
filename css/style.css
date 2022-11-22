@@ -26,7 +26,6 @@ header {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 3%;
     text-align: left;
     text-decoration: none;
 }
@@ -75,19 +74,79 @@ span {
     line-height: 1.36;
     color: #fff;
     background-color: var(--black-rock);
+    letter-spacing: 6%;
     text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+    letter-spacing: 3%;
+    text-align: left;
+}
+
+.img-list {
+    font-size: 18px;
+    line-height: 2;
+}
+
+p {
+    font-size: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--light-grey);
+    letter-spacing: 3%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+}
+
+figure {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--dark-grey);
+}
+
+.name {
+    color: var(--dark-grey);
+}
+
+.workplace {
+    color: var(--light-grey)
 }
 
 footer {
     background-color: var(--navy-blue);
 }
 
-.first-section-button {
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    font-weight: 700;
+footer a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 
-.button-list:focus {
-    background-color: var(--primary-color);
+
+address a {
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.71;
+    
 }
+
+.first-section-button {
+    font-weight: 700;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    
+}
+
+/*.button-list:focus {
+    background-color: var(--primary-color);
+}/*
