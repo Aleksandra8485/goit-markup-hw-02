@@ -85,11 +85,17 @@ span {
     font-size: 16px;
     color: var(--white-color);
     background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    border-radius: 4px;
 }
 
 .button {
     color: var(--black-color);
     background-color: var(--beige);
+    outline: none;
+    border: none;
+    border-radius: 4px;
 }
 
 h3 {
