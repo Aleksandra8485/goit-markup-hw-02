@@ -4,14 +4,21 @@
     --dark-grey: #212121;
     --white-color: #fff;
     --light-grey: #757575;
+    --navy-blue: #2f303a;
+    --black-rock: #2f303a;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: var(--white-color);
 }
 
 .main-information {
-    color: #000;
+    color: var(--black-color);
 }
 
 .logo {
@@ -32,10 +39,55 @@ body {
     color: var(--white-color);
 }
 
+.logo {
+    color: var(--primary-color);
+}
+
 .nav-list {
     list-style: none;
 }
 
 .nav-list a {
-    color: pink;
+    color: var(--dark-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.main-information a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: var(--black-color);
+}
+
+.first-section {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #fff;
+    background-color: var(--black-rock);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--navy-blue);
+}
+
+.first-section-button {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-weight: 700;
+}
+
+.button-list:focus {
+    background-color: var(--primary-color);
 }
