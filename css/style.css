@@ -6,6 +6,7 @@
     --light-grey: #757575;
     --navy-blue: #2f303a;
     --black-rock: #2f303a;
+    --beige: #f5f4fa;
 }
 
 body {
@@ -74,9 +75,21 @@ span {
     line-height: 1.36;
     color: #fff;
     background-color: var(--black-rock);
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+}
+
+.first-section-button {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.button {
+    color: var(--black-color);
+    background-color: var(--beige);
 }
 
 h3 {
@@ -116,11 +129,16 @@ figure {
 }
 
 .name {
+    font-weight: 500;
     color: var(--dark-grey);
 }
 
 .workplace {
-    color: var(--light-grey)
+    color: var(--light-grey);
+}
+
+.workplace p {
+    font-size: 16px;
 }
 
 footer {
@@ -132,21 +150,13 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
 address a {
     color: var(--white-color);
     font-size: 14px;
     line-height: 1.71;
-    
+    font-style: normal;
 }
 
-.first-section-button {
-    font-weight: 700;
-    color: var(--white-color);
-    background-color: var(--primary-color);
-    
+.address-list {
+    text-decoration: none;
 }
-
-/*.button-list:focus {
-    background-color: var(--primary-color);
-}/*
