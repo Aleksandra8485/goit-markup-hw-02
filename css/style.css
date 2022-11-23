@@ -14,12 +14,17 @@ body {
     font-weight: 400;
 }
 
-header {
+.main-information {
     background-color: var(--white-color);
 }
 
-.main-information {
+.main-information-list {
     color: var(--black-color);
+}
+
+.main-information-list a:hover,
+.main-information-list a:focus {
+    color: var(--primary-color);
 }
 
 .logo {
@@ -56,17 +61,8 @@ header {
     text-align: left;
 }
 
-.main-information a:hover {
-    color: var(--primary-color);
-    text-decoration: underline;
-}
-
-a {
+.main-information a {
     text-decoration: none;
-}
-
-span {
-    color: var(--black-color);
 }
 
 .first-section {
@@ -98,7 +94,7 @@ span {
     border-radius: 4px;
 }
 
-h3 {
+.second-section-list {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
@@ -112,30 +108,25 @@ h3 {
     line-height: 2;
 }
 
-p {
-    font-size: 400;
+.second-section-item {
     font-size: 14px;
     line-height: 1.71;
     color: var(--light-grey);
     letter-spacing: 3%;
 }
 
-h2 {
+.third-section-list,
+.fourth-section-list {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--dark-grey);
 }
 
-figure {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.17;
-    color: var(--dark-grey);
-}
-
 .name {
     font-weight: 500;
+    font-size: 16px;
+    ine-height: 1.17;
     color: var(--dark-grey);
 }
 
@@ -147,16 +138,16 @@ figure {
     font-size: 16px;
 }
 
-footer {
+.contact {
     background-color: var(--navy-blue);
 }
 
-footer a:hover {
+.contact a:hover,
+.contact a:focus {
     color: var(--primary-color);
-    text-decoration: underline;
 }
 
-address a {
+.address-list a {
     color: var(--white-color);
     font-size: 14px;
     line-height: 1.71;
