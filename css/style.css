@@ -11,7 +11,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
 }
 
 .main-information {
@@ -49,6 +48,16 @@ body {
 }
 
 .nav-list {
+    list-style: none;
+}
+
+.contact-list a {
+    color: var(--light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
+    text-align: left;
     list-style: none;
 }
 
@@ -154,7 +163,6 @@ body {
 
 .address-list a {
     color: rgba(255, 255, 255, 0.6);
-
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
@@ -166,5 +174,12 @@ body {
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
-    text-decoration: none;
+}
+
+.address-list-info {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
