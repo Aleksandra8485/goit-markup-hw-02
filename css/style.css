@@ -56,7 +56,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: left;
     list-style: none;
 }
@@ -66,7 +66,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 
@@ -74,7 +74,7 @@ body {
     text-decoration: none;
 }
 
-.first-section {
+.first-section h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -85,7 +85,7 @@ body {
     padding: 10px;
 }
 
-.first-section-button {
+.first-section button {
     font-weight: 700;
     font-size: 16px;
     color: var(--white-color);
@@ -108,12 +108,12 @@ body {
     background-color: var(--primary-color);
 }
 
-.second-section-list {
+.second-section-list h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     color: var(--dark-grey);
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-align: left;
 }
 
@@ -122,11 +122,11 @@ body {
     line-height: 2;
 }
 
-.second-section-item {
+.second-section-list p {
     font-size: 14px;
     line-height: 1.71;
     color: var(--light-grey);
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .third-section-list,
@@ -182,4 +182,9 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+}
+
+.address-list-info:hover,
+.address-list-info:focus {
+    color: var(--primary-color);
 }
